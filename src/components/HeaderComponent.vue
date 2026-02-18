@@ -8,6 +8,7 @@
             <li><a href="#">Blog</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
+        <p>Este es el componente header de mi pagina</p>
     </nav>
   </header>
 </template>
