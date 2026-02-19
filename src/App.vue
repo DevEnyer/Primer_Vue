@@ -3,6 +3,8 @@ import HeaderComponent from './components/HeaderComponent.vue';
 import VariableComponent from './components/VariableComponent.vue';
 import EventComponent from './components/EventComponent.vue';
 import classComponent from './components/classComponent.vue';
+import VifComponent from './components/VifComponent.vue';
+import VforComponent from './components/VforComponent.vue';
 
 
 </script>
@@ -17,6 +19,8 @@ import classComponent from './components/classComponent.vue';
   <VariableComponent />
   <EventComponent />
   <classComponent />
+  <VifComponent />
+  <VforComponent />
 </template>
 
 <style>
