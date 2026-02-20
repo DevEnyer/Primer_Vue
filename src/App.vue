@@ -5,6 +5,7 @@ import EventComponent from './components/EventComponent.vue';
 import classComponent from './components/classComponent.vue';
 import VifComponent from './components/VifComponent.vue';
 import VforComponent from './components/VforComponent.vue';
+import ChildComponent from './components/ChildComponent.vue';
 
 
 </script>
@@ -21,6 +22,9 @@ import VforComponent from './components/VforComponent.vue';
   <classComponent />
   <VifComponent />
   <VforComponent />
+
+  <p>Acá debajo se encuentra el componenete hijo</p>
+  <ChildComponent msg="Hola desde el padre" />
 </template>
 
 <style>
